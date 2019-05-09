@@ -1,0 +1,17 @@
+def reference_builder(first_name_letter,second_name,book_title,publishing_house,year_of_publishing,pages,ISBN):
+    print(str(second_name) + ','  + ' ' + str(first_name_letter) + '.' + ' ' + str(book_title) + ' ' + '/' + 
+          ' ' + str(first_name_letter) + '.' + str(second_name) + '.' + ' ' + '-' + ' ' + str(city) + ':' + 
+          ' '+ str(publishing_house) + ',' + ' ' + str(year_of_publishing) + '.' + ' ' + '-' + ' ' +  str(pages) + 
+          ' ' + 'c.' + ' '+  '-' + ' ' + 'ISBN' + str(ISBN) + '.')
+          
+# кому нужно, добавьте отчество через точку в  first_name_letter
+first_name_letter   = 'Л'
+second_name         = 'Зенков'
+book_title          = 'Клиническая электроэнцефалография (с элементами эпилептологии)'
+publishing_house    = 'Издательство ТРТУ'
+year_of_publishing  = '1996'
+pages               = '358'
+ISBN                = '5-230-24735-5'
+city                = 'Таганрог'
+
+reference_builder(first_name_letter,second_name,book_title,publishing_house,year_of_publishing,pages,ISBN)
