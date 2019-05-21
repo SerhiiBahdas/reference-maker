@@ -2,7 +2,7 @@ def reference_builder(first_name_letter,second_name,book_title,publishing_house,
     print(str(second_name) + ','  + ' ' + str(first_name_letter) + '.' + ' ' + str(book_title) + ' ' + '/' + 
           ' ' + str(first_name_letter) + '.' + str(second_name) + '.' + ' ' + '-' + ' ' + str(city) + ':' + 
           ' '+ str(publishing_house) + ',' + ' ' + str(year_of_publishing) + '.' + ' ' + '-' + ' ' +  str(pages) + 
-          ' ' + 'c.' + ' '+  '-' + ' ' + 'ISBN' + str(ISBN) + '.')
+          ' ' + 'c.' + ' '+  '-' + ' ' + 'ISBN ' + str(ISBN) + '.')
           
 # кому нужно, добавьте отчество через точку в  first_name_letter
 first_name_letter   = 'Л'
